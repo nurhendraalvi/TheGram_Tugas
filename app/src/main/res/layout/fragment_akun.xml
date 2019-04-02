@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Akun">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_centerHorizontal="true"
+            />
+        <EditText
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail"
+            android:textAlignment="center"
+            android:layout_below="@id/iv_1"
+            />
+        <EditText
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone number"
+            android:textAlignment="center"
+            android:layout_below="@id/tv_1"
+            />
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_2"
+            android:text="Edit Profile"
+            />
+        <Button
+            android:id="@+id/bt_2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_2"
+            android:layout_toRightOf="@id/bt_1"
+            android:text="Logout"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
